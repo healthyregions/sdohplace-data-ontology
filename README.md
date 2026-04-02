@@ -16,11 +16,12 @@ No installation required.
 
 1. Open the notebook in Google Colab:
    - Go to [colab.research.google.com](https://colab.research.google.com) → File → Open notebook → GitHub tab
-   - Paste this repository URL and select `pubmed_keyword_extractor.ipynb`
+   - Paste this repository URL and select `pubmed_keyword_extractor.ipynb` in the keyword_extraction folder.
 
 2. Edit the configuration cell at the top:
    ```python
-   QUERY = "food security"   # your search term
+   QUERY = "food security"   # your search term. You can use boolean operators (AND, OR, NOT) and field tags (e.g. [tiab] for title/abstract). e.g. "food security[tiab] AND (social determinants[tiab] OR SDOH[tiab])", "food retail", "food retail\"
+   EXACT_PHRASE = False.     # for you to decide whether to wrap the query as an exact phrase (e.g. "food security" vs food security)
    LIMIT = 100               # number of articles to retrieve
    YEARS = 5                 # restrict to last N years (set to 0 for no date filter)
    OUTPUT_PREFIX = "pubmed_results"
@@ -49,6 +50,7 @@ python pubmed_keyword_extractor.py "food security" --limit 100 --years 5
 | Flag | Description |
 |------|-------------|
 | `-l`, `--limit N` | Number of articles to retrieve (default: 100) |
+| `--exact-phrase` | Wrap the query as an exact phrase |
 | `-y`, `--years N` | Restrict to last N years |
 | `--min-date YYYY/MM/DD` | Minimum publication date |
 | `--max-date YYYY/MM/DD` | Maximum publication date |
@@ -61,6 +63,7 @@ python pubmed_keyword_extractor.py "food security" --limit 100 --years 5
 **Example:**
 ```bash
 python pubmed_keyword_extractor.py "SDOH" --limit 200 --years 3 --output sdoh_keywords
+python pubmed_keyword_extractor.py "food retail" --exact-phrase
 ```
 
 Output files will be saved in the current directory.
