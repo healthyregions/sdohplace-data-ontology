@@ -7,6 +7,7 @@ Usage:
     python pubmed_keyword_extractor.py "search term" [options]
     
 Options:
+    --exact-phrase          Wrap the query as an exact phrase
     -l, --limit N              Maximum number of articles to retrieve (default: 100
     -y, --years N              Limit to articles from the last N years
     --min-date YYYY/MM/DD      Minimum publication date
@@ -25,6 +26,7 @@ Options:
 
 Example:
     python pubmed_keyword_extractor.py "food security" --limit 100 --years 5
+    python pubmed_keyword_extractor.py "food retail" --exact-phrase
 """
 
 import argparse
@@ -49,7 +51,18 @@ SORT_OPTIONS = {
 }
 
 
-def search_pubmed(query: str, limit: int = 100, filters: dict = None, sort: str = "relevance") -> list[str]:
+def prepare_query(query: str, exact_phrase: bool = False) -> str:
+    query = query.strip()
+
+    if exact_phrase:
+        query = query.strip('"')
+        return f'"{query}"'
+
+    return query
+
+
+def search_pubmed(query: str, limit: int = 100, filters: dict = None, sort: str = "relevance", exact_phrase: bool = False) -> list[str]:
+    query = prepare_query(query, exact_phrase=exact_phrase)
     filter_parts = []
 
     if filters:
@@ -434,6 +447,8 @@ Examples:
 
     parser.add_argument("-l", "--limit", type=int, default=100,
                         help="Maximum number of articles to retrieve (default: 100)")
+    parser.add_argument("--exact-phrase", action="store_true",
+                        help="Wrap the query as an exact phrase; leave off to use raw PubMed advanced syntax")
 
     parser.add_argument("-y", "--years", type=int,
                         help="Limit to articles from the last N years")
@@ -501,7 +516,13 @@ Examples:
     if args.has_abstract:
         filters["has_abstract"] = True
 
-    pmids = search_pubmed(args.query, limit=args.limit, filters=filters if filters else None, sort=args.sort)
+    pmids = search_pubmed(
+        args.query,
+        limit=args.limit,
+        filters=filters if filters else None,
+        sort=args.sort,
+        exact_phrase=args.exact_phrase,
+    )
 
     if not pmids:
         print("No results found. Try adjusting your search terms or filters.")
