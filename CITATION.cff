@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "SDOH Data Ontology Repo"
+version: 0.1.0
+date-released: 2026-04-24
+abstract: "Tools and resources for building a social determinants of health data ontology, including PubMed keyword extraction and relationship import workflows."
+url: "https://github.com/healthyregions/sdohplace-data-ontology"
+repository-code: "https://github.com/healthyregions/sdohplace-data-ontology"
+authors:
+  - given-names: Pengyin
+    family-names: Shan
+    alias: pengyin-shan
+keywords:
+  - social determinants of health
+  - ontology
+  - pubmed
+  - keyword extraction
+  - biomedical literature
