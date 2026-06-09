@@ -1,0 +1,31 @@
+query_id,query_text,ontology_branch,specificity,query_style,uses_ontology_term_directly,expected_ontology_terms,notes
+Q01,Where can I find data on neighborhoods that lack grocery stores selling fresh produce,food-environment,narrow,natural_language,no,"food-deserts,access-to-fresh-foods,food-environment",Generic terms LLM might return: food access nutrition
+Q02,How do I get information about food assistance programs in a county,food-environment,mid,natural_language,no,"food-assistance,food-policy",Generic: food assistance program
+Q03,Foodscape data for urban areas,food-environment,broad,keyword,yes,"food-environment,foodscape",Synonym test (foodscape = food-environment)
+Q04,Datasets showing households experiencing housing cost burden,housing,narrow,natural_language,yes,"housing-cost-burden,housing-instability",Direct ontology term
+Q05,Where can I find eviction records by census tract,housing,narrow,natural_language,no,"eviction,housing-instability",Generic: housing rental
+Q06,Show me data on neighborhoods where people get displaced from their homes,housing,mid,natural_language,no,"eviction,displacement,housing-instability",Generic: housing displacement
+Q07,Public housing locations and demographics,housing,mid,keyword,yes,"public-housing,housing",Mixed-domain
+Q08,Discrimination in housing data sources,housing,broad,keyword,yes,"discrimination-in-housing,redlining,housing",Tests synonym
+Q09,Data on places where it is hard for people to see a doctor,health-and-healthcare,narrow,natural_language,no,"primary-care-provider-availability,fqhc-access,insurance-access",Generic: health healthcare
+Q10,Where are federally qualified health centers located,health-and-healthcare,narrow,natural_language,no,"fqhc-access,health-and-healthcare",Generic: health clinic
+Q11,How do I find pharmacy access data for a state,health-and-healthcare,mid,natural_language,no,"pharmacy-access,health-and-healthcare",Generic: pharmacy
+Q12,Primary care provider availability,health-and-healthcare,mid,keyword,yes,"primary-care-provider-availability",Direct term
+Q13,Data on poverty rates in households with children,economic-stability,narrow,natural_language,no,"child-poverty,household-poverty,economic-stability",Generic: poverty income
+Q14,Income inequality across counties,economic-stability,mid,keyword,yes,"income-inequality,economic-stability",Direct term
+Q15,Datasets about communities where many people cannot find work,employment,mid,natural_language,no,"unemployment,employment",Generic: jobs employment
+Q16,Jobs per capita data,employment,broad,keyword,yes,"jobs-per-capita,employment",Direct term
+Q17,Where to find high school graduation rates by neighborhood,education,narrow,natural_language,no,"highschool-graduation,education",Generic: education school
+Q18,Educational attainment data sources,education,mid,keyword,yes,"educational-attainment,education",Direct term
+Q19,Data on neighborhoods where people cannot easily reach jobs by bus or train,transportation-and-infrastructure,narrow,natural_language,no,"public-transit-access,transportation-and-infrastructure",Generic: transit transportation
+Q20,Transportation infrastructure data,transportation-and-infrastructure,broad,keyword,yes,"transportation-and-infrastructure",Direct term
+Q21,Data on areas with frequent police interactions and violence,safety,mid,natural_language,no,"violent-crime,structural-racism,safety",Generic: crime safety
+Q22,Structural racism indicators in datasets,safety,mid,keyword,yes,"structural-racism,safety",Direct term
+Q23,Where to find data on elderly people who live alone and rarely interact with others,social-and-community-context,narrow,natural_language,no,"social-isolation,social-and-community-context",Generic: senior elderly social
+Q24,Voter participation data by census tract,social-and-community-context,mid,natural_language,no,"voter-participation,social-and-community-context",Direct term
+Q25,Social cohesion measures in surveys,social-and-community-context,broad,keyword,yes,"social-cohesion,social-and-community-context",Direct term
+Q26,Recreation area access data,physical-activity-and-lifestyle,mid,keyword,yes,"recreation-area-access,physical-activity-and-lifestyle",Direct term
+Q27,Data on neighborhoods where it is safe and easy to walk for exercise,physical-activity-and-lifestyle,mid,natural_language,no,"recreation-area-access,physical-activity-and-lifestyle",Generic: walkable activity
+Q28,Disability prevalence data,demographics,broad,keyword,no,"disability-dynamics,demographics",Maps to disability-dynamics
+Q29,Single-parent household statistics,demographics,narrow,natural_language,yes,"single-parent-householder,demographics",Direct term
+Q30,Built environment characteristics for a neighborhood,neighborhood-and-built-environment,broad,natural_language,no,"neighborhood-characteristics,neighborhood-and-built-environment",Generic: neighborhood
