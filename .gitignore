@@ -13,7 +13,11 @@ venv/
 # Output files
 *.csv
 *.txt
-*.owl
+*.jsonl
+*.png
+*.json
+!queries.csv 
+# need queries.csv for testing queries
 
 # macOS
 .DS_Store

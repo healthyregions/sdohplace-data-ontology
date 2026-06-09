@@ -1,0 +1,2184 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:a0ff1175-93b8-4d21-a311-a42aae7bd51c#"
+     xml:base="urn:webprotege:ontology:a0ff1175-93b8-4d21-a311-a42aae7bd51c"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:a0ff1175-93b8-4d21-a311-a42aae7bd51c"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source">
+        <rdfs:label>dcterms:source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCX2gCumVjLzYmO9MyAGLdD -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RCX2gCumVjLzYmO9MyAGLdD">
+        <rdfs:label>dbxref</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#synonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#synonym">
+        <rdfs:label>rdfs:synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
+        <rdfs:label>skos:closeMatch</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exac -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exac">
+        <rdfs:label>skos:exac</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <rdfs:label>skos:exactMatch</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>hasSynonym</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>LinkedTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB">
+        <rdfs:label>isComponentOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhkXNr0j8tlh73HDb3iTbl -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBhkXNr0j8tlh73HDb3iTbl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Provides</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+        <rdfs:label>hasAntonym</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>InfluencedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCypRWl4tWKrTd7tdPfFlto -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCypRWl4tWKrTd7tdPfFlto">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Lacks</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX">
+        <rdfs:label>isTypeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Influences</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4Pn614SXJWoqv4ch5FmGk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4Pn614SXJWoqv4ch5FmGk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gender-and-sexuality-dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4UoHRI6nBVayvFKcNxH1n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4UoHRI6nBVayvFKcNxH1n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age-dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5HorAzSPd8fjQr9JTV3Ga -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5HorAzSPd8fjQr9JTV3Ga">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D004493</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>education</rdfs:label>
+        <skos:definition xml:lang="en">Acquisition of knowledge as a result of instruction in a formal course of study.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D004493"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7TnljpUumTRZKiho2Tg51o"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH:D000084884</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>food-insecurity</rdfs:label>
+        <skos:closeMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000084884"/>
+        <skos:definition xml:lang="en">Limited or uncertain availability of nutritionally adequate and safe foods or limited or uncertain ability to acquire acceptable foods in safe and socially acceptable ways, within an environment.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Mq5ZPckHJan7bkqc5CXfy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Mq5ZPckHJan7bkqc5CXfy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmacy-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NFkmNs27zctNWrBVw7YpR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7NFkmNs27zctNWrBVw7YpR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7NNKlSeo37q0YCst8fh8YP"/>
+        <rdfs:label>soup-kitchen</rdfs:label>
+        <skos:definition xml:lang="en">A community-based service that provides prepared meals to people in need free of charge or at very low cost.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NNKlSeo37q0YCst8fh8YP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7NNKlSeo37q0YCst8fh8YP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCR0rPXsPth1TbP1RDIsPUL"/>
+        <rdfs:label>community-food-resources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QkfbxRCoOlPgQ5jEQbNuA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QkfbxRCoOlPgQ5jEQbNuA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5HorAzSPd8fjQr9JTV3Ga"/>
+        <rdfs:label>educational-attainment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TnljpUumTRZKiho2Tg51o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7TnljpUumTRZKiho2Tg51o">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH:D000085584</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-deserts</rdfs:label>
+        <skos:definition xml:lang="en">Areas characterized by relatively poor access to healthy and affordable food.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000085584"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmIzzdBMFXC1N80dHDjA4j"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>body-weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZPK8y2Hvd6IDNOqSptOT6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZPK8y2Hvd6IDNOqSptOT6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RO8LsKTJ65tBnHo25lKM88"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D011638</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">public-housing</rdfs:label>
+        <skos:definition xml:lang="en">Housing subsidized by tax funds, usually intended for low income persons or families.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D011638"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bLTSzla5ohH1f5l5HrSOY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7bLTSzla5ohH1f5l5HrSOY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+        <rdfs:label>food-diversity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>social-and-community-context</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7exLfQIcq6doqaPYRJrh8X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7exLfQIcq6doqaPYRJrh8X">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granheim et al, 2021</dc:source>
+        <rdfs:label>digital-food-environment</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1111/obr.13356"/>
+        <skos:definition xml:lang="en">Augmentation of the food environment via digital technological that impacts food acquisition and consumption.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hoTQ6w4jzeezAEAhH6g9d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hoTQ6w4jzeezAEAhH6g9d">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7NNKlSeo37q0YCst8fh8YP"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An et al., 2019</dc:source>
+        <rdfs:label>food-pantry</rdfs:label>
+        <skos:definition xml:lang="en">Smaller front-line agencies that directly serve end users free of charge.</skos:definition>
+        <skos:exactMatch rdf:resource="https://doi.org/10.1017/S1368980019000144"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>demographics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ot4Ix9M2CvhJ16u8gTLA8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ot4Ix9M2CvhJ16u8gTLA8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmIzzdBMFXC1N80dHDjA4j"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8vOELpLx2lXRO3tQD89RvE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>premature-birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qIr5IWnNhZj2rq4GrOBr0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qIr5IWnNhZj2rq4GrOBr0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonson, Love (2016)</terms:source>
+        <rdfs:label>food-mirage</rdfs:label>
+        <skos:definition xml:lang="en">An area in which residents have geographic access to food sources but lack the economic or cultural means to take advantage of them.</skos:definition>
+        <skos:exactMatch rdf:resource="https://doi.org/10.5304/jafscd.2016.064.011"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ufhkW3Y3JUEIGOepLXzA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ufhkW3Y3JUEIGOepLXzA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RfoBpT2n0GXDSyIG1vPQJF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicklett et al, 2021; Safayet et al, 2024</dc:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-availability</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2024.103251"/>
+        <skos:closeMatch rdf:resource="https://doi.org/10.3389/fpubh.2021.763994"/>
+        <skos:definition xml:lang="en">The supply or presence of food</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84qEpg0MBt4UyGxf6rrM4f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R84qEpg0MBt4UyGxf6rrM4f">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+        <rdfs:label>food-accomodation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8594ug0mgCO7EvQroWdaki -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8594ug0mgCO7EvQroWdaki">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo"/>
+        <rdfs:label>fqhc-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88eGNMl2DqqFU0r6bpwuy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88eGNMl2DqqFU0r6bpwuy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ufhkW3Y3JUEIGOepLXzA"/>
+        <rdfs:label>violent-crime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R89aNHq7bDN6umObaQjwnRW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R89aNHq7bDN6umObaQjwnRW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+        <rdfs:label>insurance-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <rdfs:label>food-policy</rdfs:label>
+        <skos:definition xml:lang="en">Policies, regulations, programs, and institutional actions that govern food systems and food-related conditions within communities.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8QGH08CU0sdsijAR8gnxh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8QGH08CU0sdsijAR8gnxh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4UoHRI6nBVayvFKcNxH1n"/>
+        <rdfs:label>senior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UzgXvd0EGgbACYFRX0SAA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8UzgXvd0EGgbACYFRX0SAA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RO72z5CtuSiXTGzpik8GOE"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dietary-supplement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8W2oFwkOlD6Q4wiLnPqkmB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8W2oFwkOlD6Q4wiLnPqkmB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCorUQVurFhkk8RG0O3o8tF"/>
+        <rdfs:label>household-poverty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WdD4vrrmFnxoRdghRBRoZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8WdD4vrrmFnxoRdghRBRoZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2"/>
+        <rdfs:label>undernutrition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YekRO3i9Z9dPHv2y3besv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8YekRO3i9Z9dPHv2y3besv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA</terms:source>
+        <rdfs:label>WIC</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special Supplemental Nutrition Program for Women, Infants, and Children</rdfs:seeAlso>
+        <skos:closeMatch rdf:resource="https://www.fns.usda.gov/wic"/>
+        <skos:definition xml:lang="en">A federal nutrition assistance program that provides healthy foods, nutrition education, breastfeeding support, and referrals to other services for eligible women, infants, and children at nutritional risk.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dz9nf5sjGSmL6z47TTGM0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8dz9nf5sjGSmL6z47TTGM0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John et al, 2022</dc:source>
+        <rdfs:label>food-marketing</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-advertising</skos:altLabel>
+        <skos:closeMatch rdf:resource="https://doi.org/10.3390/ijerph19148470"/>
+        <skos:definition xml:lang="en">Promotion of particular food options</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8fmIlghCVDVpQd4PsFT5pJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8fmIlghCVDVpQd4PsFT5pJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC5aZX2AmYXIVO5DWpwR8Ft"/>
+        <rdfs:label>redlining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8fmSA83zqfk7UCev4wh4xf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8fmSA83zqfk7UCev4wh4xf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo"/>
+        <rdfs:label>primary-care-provider-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gxVBae2eOIH5iy6Rlzvvc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8gxVBae2eOIH5iy6Rlzvvc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RJZBiVFVuSBjQF58uHgW4p"/>
+        <rdfs:label>health-equity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ihgnsy49OqNNzmZ57rCoN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ihgnsy49OqNNzmZ57rCoN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disability-dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mTDkZY70Ro4SwmRb8hVsY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8mTDkZY70Ro4SwmRb8hVsY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDCiW8ozxxvt0yrTVNEaExs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D000091003</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>housing-instability</rdfs:label>
+        <skos:definition xml:lang="en">This  encompasses a number of challenges, such as having trouble paying rent, living in overcrowded conditions, moving frequently, living with friends or relatives out of necessity, being unhoused, or spending the bulk of household income (&gt;50%) on housing. (https://www.healthypeople.gov/2020/topics-objectives/topic/social-determinants-health/interventions-resources/housing-instability)</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000091003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nZcbkd5dA8yIsn32es421 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8nZcbkd5dA8yIsn32es421">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QkfbxRCoOlPgQ5jEQbNuA"/>
+        <rdfs:label>some-college</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rD5Kf5OtzwlQ5LpZRQkTT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rD5Kf5OtzwlQ5LpZRQkTT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7bLTSzla5ohH1f5l5HrSOY"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food and Agriculture Organization of the United Nations</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONS</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONS:0010004</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>dietary-diversity</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/ONS_0010004"/>
+        <skos:definition xml:lang="en">food consumption that reflects household access to a variety of foods, and is also a proxy for nutrient adequacy of the diet of individuals</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vOELpLx2lXRO3tQD89RvE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8vOELpLx2lXRO3tQD89RvE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ot4Ix9M2CvhJ16u8gTLA8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ot4Ix9M2CvhJ16u8gTLA8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>preterm-birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R90sMGcQbpnKVK1eJInyXvz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R90sMGcQbpnKVK1eJInyXvz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D000091522</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>housing-quality</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">housing-condition</skos:altLabel>
+        <skos:definition xml:lang="en">Physical condition of a person’s home as well as the quality of the social and physical environment in which the home is located. Aspects of housing quality include air quality, home safety, space per individual, and the presence of mold, asbestos, or lead. Housing quality is affected by factors like a home’s design and age.(https://www.healthypeople.gov/2020/topics-objectives/topic/social-determinants-health/interventions-resources/quality-of-housing)</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000091522"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R927GytVCftH44KeYiXCHWl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R927GytVCftH44KeYiXCHWl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDPUuyyntfn2pcm6XNhDavw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food and Agriculture Organization of the United Nations</terms:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urban-and-peri-urban-agriculture</rdfs:label>
+        <skos:closeMatch rdf:resource="https://www.fao.org/urban-peri-urban-agriculture/en"/>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">practices that yield food and other outputs through agricultural production and related processes (transformation, distribution, marketing, recycling…), taking place on land and other spaces within cities and surrounding regions.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>physical-activity-and-lifestyle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9BVJLteHRJt064gqpaWVxT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9BVJLteHRJt064gqpaWVxT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc"/>
+        <rdfs:label>income-inequality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EFbb7oFol70wQemyzNgK3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9EFbb7oFol70wQemyzNgK3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Z6gAjQHufKyPeDWm7RYca"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood-obesity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KgTb8O0EmdfQoeP54K0n9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KgTb8O0EmdfQoeP54K0n9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7qIr5IWnNhZj2rq4GrOBr0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caspi et al, 2012</dc:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-affordability</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2012.05.006"/>
+        <skos:definition xml:lang="en">food prices and people&apos;s perceptions of worth relative to the cost</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QT3rGBRr3t9Zzil34ujo2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9QT3rGBRr3t9Zzil34ujo2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RJZBiVFVuSBjQF58uHgW4p"/>
+        <rdfs:label>health-disparities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Rdc9vWuc3nkYBZ8fE1w14 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Rdc9vWuc3nkYBZ8fE1w14">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC1YCJeYdlo8RkKcpggEj2J"/>
+        <rdfs:label>access-to-fresh-foods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XE5cGtanw2UUl3AWCO27k -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9XE5cGtanw2UUl3AWCO27k">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCvzlgrUFwJEWOUJJnX7I5S"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCvzlgrUFwJEWOUJJnX7I5S"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McAtee et al, 2020</dc:source>
+        <rdfs:label>home-food-availability</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.3390/nu12051209"/>
+        <skos:definition xml:lang="en">The supply or presence of food in and around a person&apos;s home</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Z6gAjQHufKyPeDWm7RYca -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Z6gAjQHufKyPeDWm7RYca">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruXKiBYVssF6bjwpuCZ6F"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiVKKAc0SK7zcq35GC1p8A"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruXKiBYVssF6bjwpuCZ6F"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>obesity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicklett et al, 2021; Miller et al, 2021; Singleton et al, 2023; Caspi et al, 2012</dc:source>
+        <rdfs:label>food-access</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1007/s13668-021-00378-w"/>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2012.05.006"/>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2023.103089"/>
+        <skos:closeMatch rdf:resource="https://doi.org/10.3389/fpubh.2021.763994"/>
+        <skos:definition xml:lang="en">the ability to acquire food</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9cjhlbzgPE0PStg2vKvZDA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9cjhlbzgPE0PStg2vKvZDA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4WnCR2wwOnea44LGEwOzj"/>
+        <rdfs:label>unemployment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ckw8O9SZQ0oZzL8JPdJmg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ckw8O9SZQ0oZzL8JPdJmg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R"/>
+        <rdfs:label>recreation-area-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hYUAC0nxfhp5ASuN2NQxn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9hYUAC0nxfhp5ASuN2NQxn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCR0rPXsPth1TbP1RDIsPUL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perry et al, 2024</terms:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">school-food-environment</rdfs:label>
+        <skos:definition xml:lang="en">the spaces and conditions inside and around schools where food is available, obtained, or consumed</skos:definition>
+        <skos:exactMatch rdf:resource="https://doi.org/10.1016/j.advnut.2024.100254"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berggreen-Clausen et al, 2021; Turner et al, 2018; Swinburn et al., 2013</dc:source>
+        <rdfs:label>food-environment</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foodscape</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neighborhood-food-environment</skos:altLabel>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The food environment is the community-level physical, economic, political, and sociocultural conditions that impact the interface(s) where people acquire and consume food, shaping dietary behaviors and health.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ruXKiBYVssF6bjwpuCZ6F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ruXKiBYVssF6bjwpuCZ6F">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmIzzdBMFXC1N80dHDjA4j"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chronic-disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9v8FwAkCmuJqP1msY6x3Du -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9v8FwAkCmuJqP1msY6x3Du">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2"/>
+        <rdfs:label>malnourishment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9yCK6VYMR0gwOvhX3r4VC6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9yCK6VYMR0gwOvhX3r4VC6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgG15eMxoAUVa2ldwmMg5b"/>
+        <rdfs:label>food-safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ynujEAfEDxYhBdSaFQvMZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ynujEAfEDxYhBdSaFQvMZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RfoBpT2n0GXDSyIG1vPQJF"/>
+        <rdfs:label>public-transit-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB2NPA4LKqI7lUUMatawpdL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2NPA4LKqI7lUUMatawpdL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCfK6X2vBIrqY8vYYlGzCBE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RBJWXKCgFnBh2rRGiaBuNsg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0008572</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>malnutrition</rdfs:label>
+        <skos:closeMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008572"/>
+        <skos:definition xml:lang="en">Inadequate nutrition resulting from poor diet, malabsorption, or abnormal nutrient distribution</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB49epeoR9LQOxgTbj1gXRE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB49epeoR9LQOxgTbj1gXRE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgG15eMxoAUVa2ldwmMg5b"/>
+        <rdfs:label>food-quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8g4LCcfvihw9MneFNU8Di -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8g4LCcfvihw9MneFNU8Di">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R"/>
+        <rdfs:label>group-recreation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEDFBrBZUlaRcn5zwyR6nV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEDFBrBZUlaRcn5zwyR6nV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgG15eMxoAUVa2ldwmMg5b"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culturally-sensitive-foods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFbhPpnBludZjuh9Qe4ru8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFbhPpnBludZjuh9Qe4ru8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8mTDkZY70Ro4SwmRb8hVsY"/>
+        <rdfs:label>eviction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBGBde2DRGR9omxA10ddEYb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBGBde2DRGR9omxA10ddEYb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO:006514</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>social-segregation</rdfs:label>
+        <skos:definition xml:lang="en">Segregation in which groups of persons are separated in some or all contexts, usually dependent on some attribute of a group of persons.</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GSSO_006514"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQnm9N4RtB9VQMQSGNAkmV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBQnm9N4RtB9VQMQSGNAkmV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO:012779</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>inadequate-housing</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">housing-inadequacy</skos:altLabel>
+        <skos:definition xml:lang="en">An occupied housing unit that has moderate or severe physical problems, such as deficiencies in plumbing, heating, electricity, etc.</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GSSO_012779"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUp0fXmvTfeTtezu6Ce3Vm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBUp0fXmvTfeTtezu6Ce3Vm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RO72z5CtuSiXTGzpik8GOE"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C17993</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>nutritional-status</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17993"/>
+        <skos:definition xml:lang="en">The state of the body as influenced by the diet and the ability of the diet to maintain an overall healthy condition</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVGf8jNnc9IhakZwGecTv4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVGf8jNnc9IhakZwGecTv4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWdKo2GMYcmhuI7aoY9nZr"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:resource="http://id.nlm.nih.gov/mesh/D000091542"/>
+        <rdfs:label>neighborhood-characteristics</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics that may describe the demographic, social, built environment, or economic characteristics of a geographic area in which people live and can affect health and well-being of neighborhood residents. Neighborhood environments include the physical environment (unsafe air/water), built environment   (sidewalks/greenspace) and the social environment (safety, sense of community).</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000091542"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVK5SIEx45st39BiPdUfhR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVK5SIEx45st39BiPdUfhR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ufhkW3Y3JUEIGOepLXzA"/>
+        <rdfs:label>structural-racism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb">
+        <rdfs:label>sdoh-community</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdKbFUnQbsZHP3b2A3N4Ku -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBdKbFUnQbsZHP3b2A3N4Ku">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D000085943</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>supermarket</rdfs:label>
+        <skos:definition xml:lang="en">Self-service retail markets selling groceries, fresh produce, meats and other foods.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000085943"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgG15eMxoAUVa2ldwmMg5b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBgG15eMxoAUVa2ldwmMg5b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+        <rdfs:label>food-acceptability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiSh3fXpz38WSP4GKATrNx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBiSh3fXpz38WSP4GKATrNx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgG15eMxoAUVa2ldwmMg5b"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">traditional-diet-cultures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBluEvI1s1vLVD7qak8bKcz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBluEvI1s1vLVD7qak8bKcz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <rdfs:label>renter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH: D063105</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-assistance</rdfs:label>
+        <skos:definition xml:lang="en">Food or financial assistance for food given to those in need.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D063105"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBssZ8MtS8O5BbRzPA4TAaf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBssZ8MtS8O5BbRzPA4TAaf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+        <rdfs:label>medication-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBt5fIxwpiWd15X3Hwvkmez -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBt5fIxwpiWd15X3Hwvkmez">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+        <rdfs:label>social-relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtF3c4XrOycwVIgAXcOQOb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBtF3c4XrOycwVIgAXcOQOb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH:D018673</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutrition-policy</rdfs:label>
+        <skos:definition xml:lang="en">Guidelines and objectives pertaining to food supply and nutrition including recommendations for healthy diet.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D018673"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtccihd4EawaYIQ8IS6dUL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBtccihd4EawaYIQ8IS6dUL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBssZ8MtS8O5BbRzPA4TAaf"/>
+        <rdfs:label>moud-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0qCt1mXXQ0yatbBgbyE5B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0qCt1mXXQ0yatbBgbyE5B">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgG15eMxoAUVa2ldwmMg5b"/>
+        <rdfs:label>culturally-appropriate-foods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1YCJeYdlo8RkKcpggEj2J -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1YCJeYdlo8RkKcpggEj2J">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/Rxm4sUN1AbzwaHjYpaYfsr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT_C92456</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>healthy-food-environment</rdfs:label>
+        <skos:definition xml:lang="en">A neighborhood or locale that provides access to healthy foods and healthy eating alternatives.</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92456"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4WnCR2wwOnea44LGEwOzj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4WnCR2wwOnea44LGEwOzj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>employment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC5aZX2AmYXIVO5DWpwR8Ft -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC5aZX2AmYXIVO5DWpwR8Ft">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO:012776</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>housing-discrimination</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discrimination-in-housing</skos:altLabel>
+        <skos:definition xml:lang="en">Patterns of discrimination that affect a person&apos;s ability to rent or buy housing. This disparate treatment of a person on the housing market can be based on group characteristics or on the place where a person lives.</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GSSO_012776"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCBSrQ8Tiyi7EwQDO1OskR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCBSrQ8Tiyi7EwQDO1OskR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t"/>
+        <rdfs:label>weight-gain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>economic-stability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJBLUfPjhyxfztXSMjeCvi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJBLUfPjhyxfztXSMjeCvi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo"/>
+        <rdfs:label>specialty-provider-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKcsiq5AAOWpat8kEVlCtb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKcsiq5AAOWpat8kEVlCtb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+        <rdfs:label>household-dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCN1cbhAtBtmmkvJVBF1EG5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCN1cbhAtBtmmkvJVBF1EG5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <rdfs:label>crowded-housing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCR0rPXsPth1TbP1RDIsPUL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCR0rPXsPth1TbP1RDIsPUL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <rdfs:label>food-resources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRfH1kKJFfGbyqOV2e24sN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCRfH1kKJFfGbyqOV2e24sN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+        <rdfs:label>racial-and-ethnic-dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCU04fgRIFk4JCFu5gaCqgQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCU04fgRIFk4JCFu5gaCqgQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4WnCR2wwOnea44LGEwOzj"/>
+        <rdfs:label>jobs-per-capita</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C189178</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>food-security</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C189178"/>
+        <skos:definition xml:lang="en">The presence of low-cost, physically accessible healthy food options in a community</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWGYXbfCLAV40gsuMaOuPW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWGYXbfCLAV40gsuMaOuPW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9KgTb8O0EmdfQoeP54K0n9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9KgTb8O0EmdfQoeP54K0n9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furey, 2021</dc:source>
+        <rdfs:label>food-budget</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1017/S002966512100286X"/>
+        <skos:definition xml:lang="en">Planned amount of money to be spent on food</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaHPkIxL3QFEvNUZiiqTsQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaHPkIxL3QFEvNUZiiqTsQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC1YCJeYdlo8RkKcpggEj2J"/>
+        <rdfs:label>access-to-healthy-foods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfc7vOtkbd7TTl5Ko74OrX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfc7vOtkbd7TTl5Ko74OrX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+        <rdfs:label>voter-participation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgN9aRVXouWvVV1OgZ49Mr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgN9aRVXouWvVV1OgZ49Mr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc"/>
+        <rdfs:label>household-income</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiRbGf3MELzMgtLlZQLGtl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCiRbGf3MELzMgtLlZQLGtl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWdKo2GMYcmhuI7aoY9nZr"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical or virtual space such as a social center, online social media, or other gathering place where people gather and interact. Some social spaces such as town squares or parks are public places; others such as pubs, websites, or shopping malls are privately owned and regulated.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:resource="http://purl.obolibrary.org/obo/GSSO_008188"/>
+        <rdfs:label>social-space</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GSSO_008188"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiVKKAc0SK7zcq35GC1p8A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCiVKKAc0SK7zcq35GC1p8A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overnutrition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkC6GDDLlWL1u3uYen59rG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCkC6GDDLlWL1u3uYen59rG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RO72z5CtuSiXTGzpik8GOE"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D009747</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>nutrition</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutritional-physiological-phenomena</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://id.nlm.nih.gov/mesh/D009747"/>
+        <skos:definition xml:lang="en">The processes and properties of living organisms by which they take in and balance the use of nutritive materials for energy, heat production, or building material for the growth, maintenance, or repair of tissues and the nutritive properties of FOOD.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClgJamwrvV6mZjNz4MvIFu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RClgJamwrvV6mZjNz4MvIFu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCorUQVurFhkk8RG0O3o8tF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCorUQVurFhkk8RG0O3o8tF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc"/>
+        <rdfs:label>poverty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCppk36Pjlja27qu7V4H5qE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCppk36Pjlja27qu7V4H5qE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIO</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIO:001282</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>hunger</rdfs:label>
+        <skos:closeMatch rdf:resource="http://semanticscience.org/resource/SIO_001282"/>
+        <skos:definition xml:lang="en">hunger is the craving for food.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvTvv2c0lfn8AABb6JmFkO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvTvv2c0lfn8AABb6JmFkO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+        <rdfs:label>social-cohesion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvzlgrUFwJEWOUJJnX7I5S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvzlgrUFwJEWOUJJnX7I5S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCR0rPXsPth1TbP1RDIsPUL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9XE5cGtanw2UUl3AWCO27k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serasinghe et al, 2023</terms:source>
+        <rdfs:label>home-food-environment</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.2196/41822"/>
+        <skos:definition xml:lang="en">Conditions that affect how a person acquires and consumes food in and around the home</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0l3vUzuvlcB8J11xpIyVU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0l3vUzuvlcB8J11xpIyVU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU"/>
+        <rdfs:label>food-temporal-availability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2guh1uoLZl0HW7CbBZmw5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD2guh1uoLZl0HW7CbBZmw5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7bLTSzla5ohH1f5l5HrSOY"/>
+        <rdfs:label>food-variety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCiW8ozxxvt0yrTVNEaExs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDCiW8ozxxvt0yrTVNEaExs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO:012780</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>insecure-housing</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">housing-insecurity</skos:altLabel>
+        <skos:definition xml:lang="en">Housing which is insecure or unsecure for any of various reasons, such as threats of eviction or exposure to domestic violence.</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GSSO_012780"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEqvwovH3voilfg66Yl81g -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDEqvwovH3voilfg66Yl81g">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCorUQVurFhkk8RG0O3o8tF"/>
+        <rdfs:label>child-poverty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCR0rPXsPth1TbP1RDIsPUL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramirez-Toscano et al 2022; Safayet et al, 2024</terms:source>
+        <rdfs:label>food-retail-environment</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retail-food-environment</skos:altLabel>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2022.102865"/>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2024.103251"/>
+        <skos:definition xml:lang="en">presence, density, and quality of locations where food can be bought</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPCCjeVAsyY3wBz1dKfPro -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPCCjeVAsyY3wBz1dKfPro">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBt5fIxwpiWd15X3Hwvkmez"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDkwhSOKlGn3UPrrUEgQjgL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>social-isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPUuyyntfn2pcm6XNhDavw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPUuyyntfn2pcm6XNhDavw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singleton et al, 2022</dc:source>
+        <rdfs:label>farmers-markets</rdfs:label>
+        <skos:definition xml:lang="en">outlets in which two or more vendors sell agricultural products directly to consumers at the same location and time</skos:definition>
+        <skos:exactMatch rdf:resource="https://doi.org/10.1186/s12889-022-14415-y"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singleton et al, 2022</dc:source>
+        <rdfs:label>food-retail</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1186/s12889-022-14415-y"/>
+        <skos:definition xml:lang="en">Locations at which food can be purchased</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDS9il9SujpRq6F0nNJXBsm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDS9il9SujpRq6F0nNJXBsm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000483</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>group-exercise</rdfs:label>
+        <skos:closeMatch rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000483"/>
+        <skos:definition xml:lang="en">Group activity that requires physical or mental exertion, especially when performed to develop or maintain fitness.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbG4B07M5zadzlIxWyLPsb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDbG4B07M5zadzlIxWyLPsb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmIzzdBMFXC1N80dHDjA4j"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>cardiovascular-diseases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkkYNIf8P5YrP3L6jzbOxV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkkYNIf8P5YrP3L6jzbOxV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7exLfQIcq6doqaPYRJrh8X"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHIjqCa7BVS16dtydv9CQg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanderlee &amp; Sacks, 2023</dc:source>
+        <rdfs:label>online-food-delivery</rdfs:label>
+        <skos:definition xml:lang="en">&quot;online platforms that link consumers to food available for delivery or pickup within their geographic area&quot;</skos:definition>
+        <skos:exactMatch rdf:resource="https://doi.org/10.1017/S1368980023002495"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkwhSOKlGn3UPrrUEgQjgL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkwhSOKlGn3UPrrUEgQjgL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBt5fIxwpiWd15X3Hwvkmez"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDPCCjeVAsyY3wBz1dKfPro"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO:000709</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>social-interaction</rdfs:label>
+        <skos:definition xml:lang="en">An interaction between two or more individuals or populations in a society. Social interaction is a building block of society.</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GSSO_000709"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDo5WjNJrWJx0LliDD0KyQV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDo5WjNJrWJx0LliDD0KyQV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4UoHRI6nBVayvFKcNxH1n"/>
+        <rdfs:label>children</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutrition-disorders</rdfs:label>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D009748"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REMFsCS2PjqFc3xUX4TcWv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REMFsCS2PjqFc3xUX4TcWv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singleton et al, 2023; Ramirez-Toscano et al 2022</dc:source>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small retailers that often offer few healthy foods and larger volumes of processed and ultra-processed foods</rdfs:isDefinedBy>
+        <rdfs:label>convenience-stores</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2022.102865"/>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1016/j.healthplace.2023.103089"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJZBiVFVuSBjQF58uHgW4p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJZBiVFVuSBjQF58uHgW4p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmIzzdBMFXC1N80dHDjA4j"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>health</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJc0ktN0lvsPFbPflbbvxq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJc0ktN0lvsPFbPflbbvxq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>overweight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNTHm9rQVErhF4unz9ApPT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNTHm9rQVErhF4unz9ApPT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <rdfs:label>housing-cost-burden</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO72z5CtuSiXTGzpik8GOE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RO72z5CtuSiXTGzpik8GOE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+        <rdfs:label>nutrition-environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO8LsKTJ65tBnHo25lKM88 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RO8LsKTJ65tBnHo25lKM88">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+        <rdfs:label>housing-type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROgeeRjCtcx8GK1fI1npd3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROgeeRjCtcx8GK1fI1npd3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7bLTSzla5ohH1f5l5HrSOY"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDVIU2yHyPH37HnJyB9bRcu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCftn7IOIX77fAAvVijen0j"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONS</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONS:0000132</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>food-choice</rdfs:label>
+        <skos:definition xml:lang="en">food choice refers to any decision an organism makes regarding food and diet. It both refers to the selection of specific foods to be consumed by an organism, from a variety of available options, and to the choices regarding quantity and mode of consumption of foods. Food choice are direct consequence of the food management process, and depends on a variety of determinants of diet</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ONS_0000132"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQv3C04B9q6pNdgxg2ZcM4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQv3C04B9q6pNdgxg2ZcM4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC1YCJeYdlo8RkKcpggEj2J"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOODON</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOODON:00002457</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>fresh food</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002457"/>
+        <skos:definition xml:lang="en">Fresh food is food that has not been subjected to food preservation processes (including freezing) that alter its harvested state significantly.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV3LLaK9l0QRjVrMW6v9ey -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RV3LLaK9l0QRjVrMW6v9ey">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9KgTb8O0EmdfQoeP54K0n9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9KgTb8O0EmdfQoeP54K0n9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCWGYXbfCLAV40gsuMaOuPW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russell et al, 2022</dc:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-price</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-cost</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-prices</skos:altLabel>
+        <skos:closeMatch rdf:resource="https://doi.org/10.1007/s13668-022-00428-x"/>
+        <skos:definition xml:lang="en">Amount of money needed to acquire food</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVSbmrGqkiskbeSMKoCxkK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVSbmrGqkiskbeSMKoCxkK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKcsiq5AAOWpat8kEVlCtb"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKcsiq5AAOWpat8kEVlCtb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>single-parent-householder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RW4KJIr3hBb16qYbvyqXVz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RW4KJIr3hBb16qYbvyqXVz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RO72z5CtuSiXTGzpik8GOE"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultra-processed foods are formulations of ingredients, mostly of exclusive industrial use, typically created by a series of industrial techniques and processes (hence ‘ultra-processed’). Some common ultra-processed products are carbonated soft drinks; sweet, fatty or salty packaged snacks; candies (confectionery); mass produced packaged breads and buns, cookies, biscuits), pastries, cakes and cake mixes; margarine and other spreads; sweetened breakfast ‘cereals’ and fruit yogurt and ‘energy’ drinks; pre-prepared meat, cheese, pasta and pizza dishes; poultry and fish ‘nuggets’ and ‘sticks’; sausages, burgers, hot dogs and other reconstituted meat products; powdered and packaged ‘instant’ soups, noodles and desserts; baby formula; and many other types of product.</rdfs:comment>
+        <rdfs:label>ultra-processed food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWdKo2GMYcmhuI7aoY9nZr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWdKo2GMYcmhuI7aoY9nZr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>neighborhood-and-built-environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXz1E5BX35U2lwYzQ4KPcG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXz1E5BX35U2lwYzQ4KPcG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rdp1rvtQDV8DT1v7tmao40"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH:D000070497</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthy-lifestyle-environment</rdfs:label>
+        <skos:definition xml:lang="en">The environment that shapes pattern of behavior involving LIFE STYLE choices which ensure optimum health.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYzRfDukyfF3HxtfcMrdld -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYzRfDukyfF3HxtfcMrdld">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU"/>
+        <rdfs:label>food-spatial-availability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbwpiqnwqFyTL8iJ26AnmP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbwpiqnwqFyTL8iJ26AnmP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCR0rPXsPth1TbP1RDIsPUL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mann et al, 2021</terms:source>
+        <rdfs:label>university-food-environment</rdfs:label>
+        <skos:closeMatch rdf:resource="https://doi.org/10.3390/ijerph182211895"/>
+        <skos:definition xml:lang="en">conditions in and around university settings that impact food availability, acquisition, and consumption</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>health-and-healthcare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO:012774</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>housing</rdfs:label>
+        <skos:definition xml:lang="en">A dwelling which is considered to be long-term, permanent, or semi-permanent in nature.</skos:definition>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GSSO_012774"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rdp1rvtQDV8DT1v7tmao40 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rdp1rvtQDV8DT1v7tmao40">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</dc:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH:D008019</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>life-style</rdfs:label>
+        <skos:definition xml:lang="en">Typical way of life or manner of living characteristic of an individual or group.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D008019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfoBpT2n0GXDSyIG1vPQJF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfoBpT2n0GXDSyIG1vPQJF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+        <rdfs:label>transportation-and-infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgMQw1dRPEU5y2eijfsVT3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgMQw1dRPEU5y2eijfsVT3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QkfbxRCoOlPgQ5jEQbNuA"/>
+        <rdfs:label>highschool-graduation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkxtBBIUgNSKmnMWjv9qUv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkxtBBIUgNSKmnMWjv9qUv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singleton et al, 2022</dc:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grocery-store</rdfs:label>
+        <skos:definition xml:lang="en">Type of food retail that sells a &quot;complete line of staple foods&quot;</skos:definition>
+        <skos:exactMatch rdf:resource="https://doi.org/10.1186/s12889-022-14415-y"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmIzzdBMFXC1N80dHDjA4j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmIzzdBMFXC1N80dHDjA4j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDoOeh67FFewHD0lnWtBUy2"/>
+        <rdfs:label>health-outcomes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmuvidLlC1NThNbNOkXAHD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmuvidLlC1NThNbNOkXAHD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RO8LsKTJ65tBnHo25lKM88"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH</terms:source>
+        <webprotege:RCX2gCumVjLzYmO9MyAGLdD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh:D016852</webprotege:RCX2gCumVjLzYmO9MyAGLdD>
+        <rdfs:label>housing-for-the-elderly</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuing-care-retirement-centers</skos:altLabel>
+        <skos:definition xml:lang="en">Housing arrangements for the elderly or aged, intended to foster independent living. The housing may take the form of group homes or small apartments. It is available to the economically self-supporting but the concept includes housing for the elderly with some physical limitations. The concept should be differentiated from HOMES FOR THE AGED which is restricted to long-term geriatric facilities providing supervised medical and nursing services.</skos:definition>
+        <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D016852"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqiXZrBJE9DhobHSBO7Sx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqiXZrBJE9DhobHSBO7Sx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RO72z5CtuSiXTGzpik8GOE"/>
+        <rdfs:label>diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rs2SuxliqyUlP0TWkA5ijt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rs2SuxliqyUlP0TWkA5ijt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi"/>
+        <rdfs:label>school-food-policy</rdfs:label>
+        <skos:definition xml:lang="en">Policies, programs, and institutional rules that govern food provision, meal standards, and food-related practices in school settings.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuN2UoMiWyqo55ANJNldbw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuN2UoMiWyqo55ANJNldbw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rs2SuxliqyUlP0TWkA5ijt"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USDA</terms:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSLP</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The National School Lunch Program</rdfs:seeAlso>
+        <skos:closeMatch rdf:resource="https://www.fns.usda.gov/nslp/national-school-lunch-program-nslp"/>
+        <skos:definition xml:lang="en">A federally assisted meal program operating in public and nonprofit private schools and residential child care institutions.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvRaAKzTJv2rfgArPhWK3K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvRaAKzTJv2rfgArPhWK3K">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7NNKlSeo37q0YCst8fh8YP"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bazerghi et al., 2016</dc:source>
+        <rdfs:label>food-bank</rdfs:label>
+        <skos:definition xml:lang="en">Large redistributors of rescued food to smaller charities that provide cooked and/or uncooked food to food insecure populations.</skos:definition>
+        <skos:exactMatch rdf:resource="https://doi.org/10.1007/s10900-015-0147-5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provider-access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2pIaEEzYlzlQLOC4uSrX8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R2pIaEEzYlzlQLOC4uSrX8">
+        <rdfs:label>food-cost </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7APlpq7wcXIP21vB6oo3W8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7APlpq7wcXIP21vB6oo3W8">
+        <rdfs:label>food-sovereignty</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7YV3enWrn8veakh6FH45hM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7YV3enWrn8veakh6FH45hM">
+        <rdfs:label>retail-food-environment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xkU9fiOqx04npbHxgLIh0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7xkU9fiOqx04npbHxgLIh0">
+        <rdfs:label>Nutritional Physiological Phenomena</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8NTmUcpIJOWQLitvmmpHfS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8NTmUcpIJOWQLitvmmpHfS">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-insecure-environment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mAMpqVu66g9kD3oRLdTsB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9mAMpqVu66g9kD3oRLdTsB">
+        <rdfs:label>local-food-production</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJWXKCgFnBh2rRGiaBuNsg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBJWXKCgFnBh2rRGiaBuNsg">
+        <rdfs:label>nutritional-security</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzaPOSErE4LLxM7ZrjVpbl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBzaPOSErE4LLxM7ZrjVpbl">
+        <rdfs:label>Food Stamps</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6FfPqlfQB9VXUO9XkDMQp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC6FfPqlfQB9VXUO9XkDMQp">
+        <rdfs:label>MenuItem</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDAEFpp2oDBT5GhTHFF16i -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCDAEFpp2oDBT5GhTHFF16i">
+        <rdfs:label>food-supply</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfK6X2vBIrqY8vYYlGzCBE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCfK6X2vBIrqY8vYYlGzCBE">
+        <rdfs:label>Nutritional disease</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCftn7IOIX77fAAvVijen0j -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCftn7IOIX77fAAvVijen0j">
+        <rdfs:label>food content</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzbdkwuGLZtz6TAj0LXP6w -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCzbdkwuGLZtz6TAj0LXP6w">
+        <rdfs:label>food-insecurity, </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVIU2yHyPH37HnJyB9bRcu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDVIU2yHyPH37HnJyB9bRcu">
+        <rdfs:label>food-preferences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUX9sPpwloROuJ9YiHBXJO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RUX9sPpwloROuJ9YiHBXJO">
+        <rdfs:label>food-prices </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmIrqUvd8fT17njEL96o8d -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RmIrqUvd8fT17njEL96o8d">
+        <rdfs:label>food-advertising</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rxm4sUN1AbzwaHjYpaYfsr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rxm4sUN1AbzwaHjYpaYfsr">
+        <rdfs:label>food-secure-environment</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

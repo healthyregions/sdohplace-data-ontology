@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>housing</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2016/D006798"/>
+    <ns1:hasDbXref>MESH:D006798</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7hoTQ6w4jzeezAEAhH6g9d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ"/>
+    <rdfs:label>food-pantry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7e4a372c335c4f8db08a6ffb819d488d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbwpiqnwqFyTL8iJ26AnmP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RC7Egv4sxlPw6xuOwxqlxK8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrorGdvEncHA1Km8rhKlLH"/>
+    <rdfs:label>school-food-environment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCeEhsgM42sGvxJqHRUik8r">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ"/>
+    <rdfs:subClassOf rdf:nodeID="N231feb4124244c198ac2f9b6cdfd7b8a"/>
+    <rdfs:label>SNAP-benefits</rdfs:label>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplemental Nutrition Assistance Program benefits</rdfs:seeAlso>
+    <rdfs:synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food stamps</rdfs:synonym>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RNTHm9rQVErhF4unz9ApPT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+    <rdfs:label>housing-cost-burden</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8nZcbkd5dA8yIsn32es421">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QkfbxRCoOlPgQ5jEQbNuA"/>
+    <rdfs:label>some-college</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8QGH08CU0sdsijAR8gnxh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4UoHRI6nBVayvFKcNxH1n"/>
+    <rdfs:label>senior</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N074293a3f2da4a83ab8ad5c5081d4090">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8AWGO45a5H6WuUBkCGxiNW">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCkC6GDDLlWL1u3uYen59rG"/>
+    <rdfs:label>nutrition-labeling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBmU6hkThwwjFpzvUO05BBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCkC6GDDLlWL1u3uYen59rG"/>
+    <rdfs:label>nutrition-security</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>social-and-community-context</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBBcSEYgSQ7nN8tDQlon2im">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9jBa5s70BTTmEamrMFO5z"/>
+    <rdfs:subClassOf rdf:nodeID="Ne7d84dc7b0644740a9c4fc29808b5984"/>
+    <rdfs:label>diet</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2017/D004032"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/41829006"/>
+    <ns1:hasDbXref>MESH:D004032</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:41829006</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc9e7cfd81a7b476ca262e99bb205de11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7ot4Ix9M2CvhJ16u8gTLA8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9jBa5s70BTTmEamrMFO5z"/>
+    <rdfs:subClassOf rdf:nodeID="N53f144c74b8f419f8391232c2cdec34d"/>
+    <rdfs:label>premature-birth</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2016/D047928"/>
+    <ns1:hasDbXref>MESH:D047928</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+    <rdfs:label>food-insecurity</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000084884"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/733423003"/>
+    <ns1:hasDbXref>MESH:D000084884</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:733423003</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBhkXNr0j8tlh73HDb3iTbl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label>Provides</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+    <rdfs:label>food-policy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBssZ8MtS8O5BbRzPA4TAaf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+    <rdfs:label>medication-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6de1a9134ed94337ab71f1936f56b895">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruXKiBYVssF6bjwpuCZ6F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCkC6GDDLlWL1u3uYen59rG">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa"/>
+    <rdfs:label>nutrition</rdfs:label>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/384759009"/>
+    <ns1:hasDbXref>SNOMEDCT:384759009</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDPUuyyntfn2pcm6XNhDavw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkxtBBIUgNSKmnMWjv9qUv"/>
+    <rdfs:label>farmers-markets</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCQdycu3KocB5aSHQj0bvZ0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClgJamwrvV6mZjNz4MvIFu"/>
+    <rdfs:label>fast-food</rdfs:label>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/227998008"/>
+    <ns1:hasDbXref>SNOMEDCT:227998008</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8vOELpLx2lXRO3tQD89RvE">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ot4Ix9M2CvhJ16u8gTLA8"/>
+    <rdfs:subClassOf rdf:nodeID="N43a4a67a9cfa44cf8099e4a8497a4f45"/>
+    <rdfs:label>preterm-birth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RuN2UoMiWyqo55ANJNldbw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pRo5KWuKQ1bPcOkfUePcU"/>
+    <rdfs:label>school-meals</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label>hasSynonym</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9ee7ae883dea45c7ba27fba711f8d7a2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7pRo5KWuKQ1bPcOkfUePcU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>sdoh-community</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>health-and-healthcare</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd508924e6181421db611c7efba0c70c1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8NX7rVWeiojYzTp8TIMnXj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCorUQVurFhkk8RG0O3o8tF">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc"/>
+    <rdfs:label>poverty</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2017/D011203"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/11403006"/>
+    <ns1:hasDbXref>MESH:D011203</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:11403006</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCgN9aRVXouWvVV1OgZ49Mr">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc"/>
+    <rdfs:label>household-income</rdfs:label>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/224168007"/>
+    <ns1:hasDbXref>SNOMEDCT:224168007</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCU04fgRIFk4JCFu5gaCqgQ">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4WnCR2wwOnea44LGEwOzj"/>
+    <rdfs:label>jobs-per-capita</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RVSbmrGqkiskbeSMKoCxkK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCKcsiq5AAOWpat8kEVlCtb"/>
+    <rdfs:subClassOf rdf:nodeID="N041f41c6b9144e768ed14c00ad97e8fc"/>
+    <rdfs:label>single-parent-householder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RkxtBBIUgNSKmnMWjv9qUv">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+    <rdfs:label>grocery-stores</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43a4a67a9cfa44cf8099e4a8497a4f45">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ot4Ix9M2CvhJ16u8gTLA8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+    <rdfs:label>food-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RbwpiqnwqFyTL8iJ26AnmP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrorGdvEncHA1Km8rhKlLH"/>
+    <rdfs:label>university-food-environment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9BVJLteHRJt064gqpaWVxT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc"/>
+    <rdfs:label>income-inequality</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDbG4B07M5zadzlIxWyLPsb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9jBa5s70BTTmEamrMFO5z"/>
+    <rdfs:subClassOf rdf:nodeID="N342c6685697e4ff192f4e5b53de391e6"/>
+    <rdfs:label>cardiovascular-diseases</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2015/D002318"/>
+    <ns1:hasDbXref>MESH:D002318</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RByuDrvM2dWWanLJaDkd1PE">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+    <rdfs:label>obesogenic-environment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RJZBiVFVuSBjQF58uHgW4p">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9jBa5s70BTTmEamrMFO5z"/>
+    <rdfs:subClassOf rdf:nodeID="N14189cbd5aa343999090c66b8714a385"/>
+    <rdfs:label>health</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2016/D006262"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/263775005"/>
+    <ns1:hasDbXref>MESH:D006262</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:263775005</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCErIuyJCZlKMuYwYiaOAmn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+    <rdfs:label>hunger</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2015/D006815"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/55350005"/>
+    <ns1:hasDbXref>MESH:D006815</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:55350005</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53f144c74b8f419f8391232c2cdec34d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8vOELpLx2lXRO3tQD89RvE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label>InfluencedBy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RrorGdvEncHA1Km8rhKlLH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+    <rdfs:label>schools</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2025/D012574"/>
+    <ns1:hasDbXref>MESH:D012574</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCRfH1kKJFfGbyqOV2e24sN">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+    <rdfs:label>racial-and-ethnic-dynamics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCUMF5A0oNAJ3nDrBg1JgJI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCkC6GDDLlWL1u3uYen59rG"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZuXkVOu50peJ1jKHxEnng"/>
+    <rdfs:subClassOf rdf:nodeID="N8349b6851fdf4357acbf8c5e5dde6c3f"/>
+    <rdfs:subClassOf rdf:nodeID="N3a1a32320f5241079b8ed3a71cbae4d1"/>
+    <rdfs:subClassOf rdf:nodeID="N3919f01fb0c84c5a921dc91cb67e8c1f"/>
+    <rdfs:label>nutrition-environment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDrki8m5Dw3SmIcQp6hn4x3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8NX7rVWeiojYzTp8TIMnXj"/>
+    <rdfs:subClassOf rdf:nodeID="Na5933e2728794573a795f914102da77d"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Areas characterized by relatively poor access to healthy and affordable food.</rdfs:comment>
+    <rdfs:label>food-desert</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8f550052fb704007a8542820e3c4ed10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6b0ca1df80864534a68445eb159636e1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBhkXNr0j8tlh73HDb3iTbl"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBzt1kXh50TjDhew34hsblS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9Z6gAjQHufKyPeDWm7RYca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruXKiBYVssF6bjwpuCZ6F"/>
+    <rdfs:subClassOf rdf:nodeID="N89c486f688e845269999113bf4933d56"/>
+    <rdfs:subClassOf rdf:nodeID="N6de1a9134ed94337ab71f1936f56b895"/>
+    <rdfs:label>obesity</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2022/D009765"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/414916001"/>
+    <ns1:hasDbXref>MESH:D009765</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:414916001</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBluEvI1s1vLVD7qak8bKcz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+    <rdfs:label>renter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf8111545a7244a929d0bceed3c6cf24c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RkrtToccH3TNkkbYYXkR8h">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbwpiqnwqFyTL8iJ26AnmP"/>
+    <rdfs:subClassOf rdf:nodeID="N7e4a372c335c4f8db08a6ffb819d488d"/>
+    <rdfs:subClassOf rdf:nodeID="N9ee7ae883dea45c7ba27fba711f8d7a2"/>
+    <rdfs:label>university-food</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N342c6685697e4ff192f4e5b53de391e6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R4UoHRI6nBVayvFKcNxH1n">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age-dynamics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDZuXkVOu50peJ1jKHxEnng">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+    <rdfs:label>malnutrition</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2016/D044342"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/2492009"/>
+    <ns1:hasDbXref>MESH:D044342</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:2492009</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8594ug0mgCO7EvQroWdaki">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo"/>
+    <rdfs:label>fqhc-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7aLk0jxr5AjqG5fJueS7qz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa"/>
+    <rdfs:label>access-to-healthy-foods</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000091483"/>
+    <ns1:hasDbXref>MESH:D000091483</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCDtLpqZOwq2TPIBBXBORKc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>economic-stability</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000091002"/>
+    <ns1:hasDbXref>MESH:D000091002</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RfoBpT2n0GXDSyIG1vPQJF">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>transportation-and-infrastructure</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7ufhkW3Y3JUEIGOepLXzA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>safety</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2023/D012449"/>
+    <ns1:hasDbXref>MESH:D012449</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9ynujEAfEDxYhBdSaFQvMZ">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RfoBpT2n0GXDSyIG1vPQJF"/>
+    <rdfs:label>public-transit-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8W2oFwkOlD6Q4wiLnPqkmB">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCorUQVurFhkk8RG0O3o8tF"/>
+    <rdfs:label>household-poverty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9EFbb7oFol70wQemyzNgK3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Z6gAjQHufKyPeDWm7RYca"/>
+    <rdfs:subClassOf rdf:nodeID="N3025989b00af418385266d969aee5eae"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood-obesity</rdfs:label>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/444862003"/>
+    <ns1:hasDbXref>SNOMEDCT:444862003</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBVK5SIEx45st39BiPdUfhR">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ufhkW3Y3JUEIGOepLXzA"/>
+    <rdfs:label>structural-racism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All aspects of the local environment that influence dietary behaviors.</rdfs:comment>
+    <rdfs:label>food-environment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N89c486f688e845269999113bf4933d56">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCvTvv2c0lfn8AABb6JmFkO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+    <rdfs:label>social-cohesion</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000091782"/>
+    <ns1:hasDbXref>MESH:D000091782</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7yLKD0z8eI2SiHf7XBG3uU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+    <rdfs:subClassOf rdf:nodeID="Nc9e7cfd81a7b476ca262e99bb205de11"/>
+    <rdfs:label>food-availalbility</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RvRaAKzTJv2rfgArPhWK3K">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ"/>
+    <rdfs:label>food-bank</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0aa494f80d4444dbb09eacf06f91bfa8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDmYAtfzF1U7peN6TnT7rem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N14189cbd5aa343999090c66b8714a385">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>demographics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8NX7rVWeiojYzTp8TIMnXj">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9io53w1li3JXzYP1fji9qw"/>
+    <rdfs:label>neighborhood-food-environment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDEqvwovH3voilfg66Yl81g">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCorUQVurFhkk8RG0O3o8tF"/>
+    <rdfs:label>child-poverty</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/D000091486"/>
+    <ns1:hasDbXref>MESH:D000091486</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RWdKo2GMYcmhuI7aoY9nZr">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>neighborhood-and-built-environment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8ihgnsy49OqNNzmZ57rCoN">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disability-dynamics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8gxVBae2eOIH5iy6Rlzvvc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RJZBiVFVuSBjQF58uHgW4p"/>
+    <rdfs:label>health-equity</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2017/D000069576"/>
+    <ns1:hasDbXref>MESH:D000069576</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9QT3rGBRr3t9Zzil34ujo2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RJZBiVFVuSBjQF58uHgW4p"/>
+    <rdfs:label>health-disparities</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCN1cbhAtBtmmkvJVBF1EG5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdIUTjSt8ll6x0X3jJ6Wxo"/>
+    <rdfs:label>crowded-housing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCXvla3LnhDMhx1LFvI229Q">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R7YG1KiTjsIrxdhUGvrZsBU"/>
+    <rdfs:label>hasAntonym</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBtccihd4EawaYIQ8IS6dUL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBssZ8MtS8O5BbRzPA4TAaf"/>
+    <rdfs:label>moud-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7d84dc7b0644740a9c4fc29808b5984">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R4Pn614SXJWoqv4ch5FmGk">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gender-and-sexuality-dynamics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>physical-activity-and-lifestyle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8QBfr2meOJm5qIdO3DwDmi"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-assistance</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2023/D063105"/>
+    <ns1:hasDbXref>MESH:D063105</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R5HorAzSPd8fjQr9JTV3Ga">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>education</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2017/D004493"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/409073007"/>
+    <ns1:hasDbXref>MESH:D004493</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:409073007</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBzt1kXh50TjDhew34hsblS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pRo5KWuKQ1bPcOkfUePcU"/>
+    <rdfs:label>free-and-reduced-school-lunches</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RW4KJIr3hBb16qYbvyqXVz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultra-processed foods are formulations of ingredients, mostly of exclusive industrial use, typically created by a series of industrial techniques and processes (hence ‘ultra-processed’). Some common ultra-processed products are carbonated soft drinks; sweet, fatty or salty packaged snacks; candies (confectionery); mass produced packaged breads and buns, cookies, biscuits), pastries, cakes and cake mixes; margarine and other spreads; sweetened breakfast ‘cereals’ and fruit yogurt and ‘energy’ drinks; pre-prepared meat, cheese, pasta and pizza dishes; poultry and fish ‘nuggets’ and ‘sticks’; sausages, burgers, hot dogs and other reconstituted meat products; powdered and packaged ‘instant’ soups, noodles and desserts; baby formula; and many other types of product.</rdfs:comment>
+    <rdfs:label>ultra-processed food</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RJc0ktN0lvsPFbPflbbvxq">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t"/>
+    <rdfs:subClassOf rdf:nodeID="Nf605ef094865464eb1946f8c0c7cb0a2"/>
+    <rdfs:subClassOf rdf:nodeID="Nf8111545a7244a929d0bceed3c6cf24c"/>
+    <rdfs:label>overweight</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2022/D050177"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/238131007"/>
+    <ns1:hasDbXref>MESH:D050177</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:238131007</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RKko4TH7aWS7VZJUyO4f2a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDmYAtfzF1U7peN6TnT7rem"/>
+    <rdfs:subClassOf rdf:nodeID="N0aa494f80d4444dbb09eacf06f91bfa8"/>
+    <rdfs:label>urban-planning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RC4WnCR2wwOnea44LGEwOzj">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBYcWinfr27LvIJ0oqVKQdb"/>
+    <rdfs:label>employment</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2015/D004651"/>
+    <ns1:hasDbXref>MESH:D004651</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9cjhlbzgPE0PStg2vKvZDA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4WnCR2wwOnea44LGEwOzj"/>
+    <rdfs:label>unemployment</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2017/D014478"/>
+    <ns1:hasDbXref>MESH:D014478</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provider-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9io53w1li3JXzYP1fji9qw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+    <rdfs:label>neighborhood</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCfc7vOtkbd7TTl5Ko74OrX">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7cnZwDiqLQJTGJx2oxOGC"/>
+    <rdfs:label>voter-participation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCCBSrQ8Tiyi7EwQDO1OskR">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t"/>
+    <rdfs:label>weight-gain</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2016/D015430"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/816159004"/>
+    <ns1:hasDbXref>MESH:D015430</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:816159004</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8349b6851fdf4357acbf8c5e5dde6c3f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>isComponentOf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RB5Y6dkZK5MIDXT10bmrqBl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBzt1kXh50TjDhew34hsblS"/>
+    <rdfs:subClassOf rdf:nodeID="N6b0ca1df80864534a68445eb159636e1"/>
+    <rdfs:subClassOf rdf:nodeID="N074293a3f2da4a83ab8ad5c5081d4090"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthy hunger-free kids act</rdfs:comment>
+    <rdfs:label>hhfka</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9ruXKiBYVssF6bjwpuCZ6F">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9jBa5s70BTTmEamrMFO5z"/>
+    <rdfs:subClassOf rdf:nodeID="Nb93c183d70aa4e09a66680d1c4ed13af"/>
+    <rdfs:label>chronic-disease</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2017/D002908"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/27624003"/>
+    <ns1:hasDbXref>MESH:D002908</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:27624003</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na5933e2728794573a795f914102da77d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8NX7rVWeiojYzTp8TIMnXj"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3a1a32320f5241079b8ed3a71cbae4d1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCkC6GDDLlWL1u3uYen59rG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7WVU9Wla0XByaTNUXplD5t">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9jBa5s70BTTmEamrMFO5z"/>
+    <rdfs:subClassOf rdf:nodeID="N8f550052fb704007a8542820e3c4ed10"/>
+    <rdfs:label>body-weight</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2016/D001835"/>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/27113001"/>
+    <ns1:hasDbXref>MESH:D001835</ns1:hasDbXref>
+    <ns1:hasDbXref>SNOMEDCT:27113001</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RgMQw1dRPEU5y2eijfsVT3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QkfbxRCoOlPgQ5jEQbNuA"/>
+    <rdfs:label>highschool-graduation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBdKbFUnQbsZHP3b2A3N4Ku">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs"/>
+    <rdfs:label>supermarket</rdfs:label>
+    <skos:exactMatch rdf:resource="http://snomed.info/id/224834004"/>
+    <ns1:hasDbXref>SNOMEDCT:224834004</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7Mq5ZPckHJan7bkqc5CXfy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmacy-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCKcsiq5AAOWpat8kEVlCtb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7huUIDpkOjYRjnIYAcc0gL"/>
+    <rdfs:label>household-dynamics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDo5WjNJrWJx0LliDD0KyQV">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4UoHRI6nBVayvFKcNxH1n"/>
+    <rdfs:label>children</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RClgJamwrvV6mZjNz4MvIFu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8NX7rVWeiojYzTp8TIMnXj"/>
+    <rdfs:subClassOf rdf:nodeID="Nd508924e6181421db611c7efba0c70c1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food-swamp</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8X1z1GNKh3npNNepQklo9o">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label>LinkedTo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9yhe8KCxlD6NktNaVPJto1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7L7fXNPV0Vzh3wJES6rQG7"/>
+    <rdfs:label>nova-food-classification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R89aNHq7bDN6umObaQjwnRW">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcIeYvbxEMPq22vK4l01wl"/>
+    <rdfs:label>insurance-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8fmSA83zqfk7UCev4wh4xf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo"/>
+    <rdfs:label>primary-care-provider-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:webprotege:ontology:a0ff1175-93b8-4d21-a311-a42aae7bd51c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCypRWl4tWKrTd7tdPfFlto">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label>Lacks</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDmYAtfzF1U7peN6TnT7rem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+    <rdfs:subClassOf rdf:nodeID="N7c99844ed6ec4e7c9cbd726ee8561ebd"/>
+    <rdfs:label>built-environment</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2023/D000076624"/>
+    <ns1:hasDbXref>MESH:D000076624</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N231feb4124244c198ac2f9b6cdfd7b8a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB23oagUOlpIddgav6pKijB"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7QkfbxRCoOlPgQ5jEQbNuA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5HorAzSPd8fjQr9JTV3Ga"/>
+    <rdfs:label>educational-attainment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9ckw8O9SZQ0oZzL8JPdJmg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98pVHMd8tcFmGSfx4lGx2R"/>
+    <rdfs:label>recreation-area-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7pRo5KWuKQ1bPcOkfUePcU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC7Egv4sxlPw6xuOwxqlxK8"/>
+    <rdfs:label>school-food</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf605ef094865464eb1946f8c0c7cb0a2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3919f01fb0c84c5a921dc91cb67e8c1f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDZuXkVOu50peJ1jKHxEnng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCWCIVDi5Nb137RSQ622MHa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+    <rdfs:label>food-security</rdfs:label>
+    <skos:exactMatch rdf:resource="http://id.nlm.nih.gov/mesh/2022/D000082302"/>
+    <ns1:hasDbXref>MESH:D000082302</ns1:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label>Influences</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RC9jBa5s70BTTmEamrMFO5z">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+    <rdfs:label>outcomes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R88eGNMl2DqqFU0r6bpwuy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ufhkW3Y3JUEIGOepLXzA"/>
+    <rdfs:label>violent-crime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N041f41c6b9144e768ed14c00ad97e8fc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCKcsiq5AAOWpat8kEVlCtb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDodSjUu6sbZI4mp3HrnDXX">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>isTypeOf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDRtO7LX29GEjKqugWHg5zs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+    <rdfs:label>food-retail</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c99844ed6ec4e7c9cbd726ee8561ebd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RU407W4yhjiSzrxHJZI5Z8"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9c1hBngLGrJwWYxQb8EKf5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7NFkmNs27zctNWrBVw7YpR">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpLDWpPNHEJEJok7tQLXQ"/>
+    <rdfs:label>soup-kitchen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3025989b00af418385266d969aee5eae">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb93c183d70aa4e09a66680d1c4ed13af">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCiJYf8H2ZY2GyVKKPkvsBD"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ruPDCktcLDxDKCQaxRLNi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCJBLUfPjhyxfztXSMjeCvi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RzOqy8HfTkrDK3E5fLJDjo"/>
+    <rdfs:label>specialty-provider-access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#synonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label>rdfs:synonym</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
